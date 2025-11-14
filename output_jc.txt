@@ -1,0 +1,23 @@
+ALL TESTS
+Bridge Repair: 4200 PSI - PASS
+Bridge Repair: 3900 PSI - FAIL
+Bridge Repair: 4100 PSI - PASS
+Parking Garage: 3200 PSI - PASS
+Parking Garage: 3100 PSI - PASS
+Office Building: 5300 PSI - PASS
+Office Building: 4800 PSI - FAIL
+Office Building: 5100 PSI - PASS
+
+FAILED TESTS
+Bridge Repair on 2024-11-02
+  Required: 4000 PSI
+  Actual: 3900 PSI
+
+Office Building on 2024-11-02
+  Required: 5000 PSI
+  Actual: 4800 PSI
+
+TESTS PER PROJECT
+Bridge Repair: 2/3 passed
+Office Building: 2/3 passed
+Parking Garage: 2/2 passed
